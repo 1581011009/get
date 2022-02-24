@@ -1,0 +1,32 @@
+<div id="slider" class="slider">
+                <div class="slider_svroll" id="slider_svroll">
+                    <div class="slider_main" id="slider_main">
+                        <div class="item">
+                            <a href="">
+                                <img src="網頁\image\1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                                <img src="網頁\image\2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                                <img src="網頁\image\3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="">
+                                <img src="網頁\image\4.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <span class="next" id="next"></span>
+                    <span class="prev" id="prev"></span>
+                </div>  
+                <div class="slider_index" id="slider_index">
+                </div>
+                <script src="網頁\456.js" type="text/javascript" charset="utf-8"></script> 
+                <script src="網頁\123.js" type="text/javascript" charset="utf-8"></script> 
+            </div>
