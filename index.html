@@ -1,0 +1,162 @@
+
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>GETJOBCAT</title>
+        <link rel="stylesheet" href="/桌面/Desktop/網頁/123.css">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <script src="/桌面/Desktop/網頁/123.js"></script>
+    </head>
+    <body>
+    <div class="wrapper">
+        <h1><div class="box2">GETJOBCAT</div></h1>
+        <div class="box2 i dropdown">
+            <div class="dropdown">
+                <p>求職註冊</p>
+                <div class="dropdown-content">
+                  <p><a href="">常見問題</a></p>
+                  <p><a href="/桌面/Desktop/網頁/mine.html">登入</a></p>
+                  <p><a href="">註冊</a></p>
+                </div>
+              </div>
+        </div>
+        <div class="box2 j dropdown">
+            <div class="dropdown">
+                <p>企業招攬</p>
+                <div class="dropdown-content">
+                  <p><a href="">常見問題</a></p>
+                  <p><a href="/桌面/Desktop/網頁/mine.html">登入</a></p>
+                  <p><a href="">註冊</a></p>
+                </div>
+              </div>
+        </div>
+        <div class="e">
+            <nav>
+                <ul>
+                    <li><a href="#">學生</a></li>
+                    <li><a href="#">新鮮人</a></li>
+                    <li><a href="#">上班族</a></li>
+                    <li><a href="#">中高齡</a></li>
+                </ul>
+            </nav>
+        </div >
+        <div class="box" class="container">          
+          <form class="site_search" action="/search" method="get" role="search">
+            <input class="search_input" name="q" placeholder="搜尋文章" type="text" />
+            <input name="by-date" type="hidden" value="true"/>
+            </form>
+            <input type="datetime-local" id="meeting-time"
+                name="meeting-time" 
+                min="2018-06-07T00:00" max="2050-12-31T00:00"> 
+            <form class="form" id="myForm" action="">
+              <div class="row">
+                <div class="input-field col s4">
+                  <select name="county"></select>
+                  <label>縣市</label>
+                </div>
+                <div class="input-field col s4">
+                  <select name="district"></select>
+                  <label>鄉鎮市區</label>
+                </div>
+              </div>
+            </form>
+          </div>
+         <script src="/桌面/Desktop/網頁/erTWZipcode-master/js/er.twzipcode.data.js"></script>
+          <script src="/桌面/Desktop/網頁/erTWZipcode-master/js/er.twzipcode.min.js"></script>
+          <script>
+            erTWZipcode({
+              defaultCountyText: "請選擇",
+              defaultDistrictText: "請選擇"
+            });
+            var distEl = document.querySelector('#myForm select[name=district]');
+            document.querySelector('#myForm select[name=county]')
+              .addEventListener("change", function (evt) {
+                M.FormSelect.init(distEl);
+              });
+            M.FormSelect.init(document.querySelectorAll('#myForm select'));
+          </script>
+        <div class="box b">
+            <div class="slider_container">
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/1.jpg" alt="pure css3 slider" />
+                    <span class="info">廣告</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/2.jpg" alt="pure css3 slider" />
+                    <span class="info">廣告</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/3.jpg" alt="pure css3 slider" />
+                    <span class="info">廣告/span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/4.jpg" alt="pure css3 slider" />
+                    <span class="info">廣告</span>
+                </div>
+            </div>
+        </div>
+        <div class="box c">
+            <div class="slider_container">
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/1.jpg" alt="pure css3 slider" />
+                    <span class="info">廣告</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/2.jpg" alt="pure css3 slider" />
+                    <span class="info">廣告</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/3.jpg" alt="pure css3 slider" />
+                    <span class="info">廣告</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/4.jpg" alt="pure css3 slider" />
+                    <span class="info">廣告</span>
+                </div>
+            </div>
+        </div>
+        <div class="box d">
+            <div class="slider_container">
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/1.jpg" alt="pure css3 slider" />
+                    <span class="info">Image Description 1</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/2.jpg" alt="pure css3 slider" />
+                    <span class="info">Image Description 2</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/3.jpg" alt="pure css3 slider" />
+                    <span class="info">Image Description 3</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/4.jpg" alt="pure css3 slider" />
+                    <span class="info">Image Description 4</span>
+                </div>
+            </div>
+        </div>
+        <div class="box f">
+            <div class="slider_container">
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/1.jpg" alt="pure css3 slider" />
+                    <span class="info">Image Description 1</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/2.jpg" alt="pure css3 slider" />
+                    <span class="info">Image Description 2</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/3.jpg" alt="pure css3 slider" />
+                    <span class="info">Image Description 3</span>
+                </div>
+                <div>
+                    <img src="/桌面/Desktop/網頁/image/4.jpg" alt="pure css3 slider" />
+                    <span class="info">Image Description 4</span>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div id="time" class="y"></div>
+        <button onclick="topFunction()">回到頂部</button>
+    </body>
+</html> 
